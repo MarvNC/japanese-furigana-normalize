@@ -79,7 +79,7 @@ const testCases: testCase[] = [
   {
     term: 'ウィルヘルム・フォン・リッテンハイム3世',
     inputReading: 'うぃるへるむふぉんりってんはいむさんせい',
-    expectedReading: 'ウィルヘルム・フォン・リッテンハイム3世',
+    expectedReading: 'ウィルヘルム・フォン・リッテンハイムさんせい',
   },
 ];
 

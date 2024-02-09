@@ -1,6 +1,6 @@
-import { containsKanji } from './text-util/containsKanji';
 import { hiraganaToKatakana } from './text-util/hiraganaToKatakana';
 import { isKatakana } from './text-util/isKatakana';
+import { containsKanjiOrNumber } from './text-util/containsKanji';
 
 /**
  * Normalizes a reading to match for things with katakana in the string.
@@ -22,9 +22,9 @@ export function normalizeReading(term: string, reading: string) {
 
   while (katakanaArr.length > 0) {
     const termChar = termArr.shift();
-    if (termChar && containsKanji(termChar)) {
+    if (termChar && containsKanjiOrNumber(termChar)) {
       // consume kanjis in succession
-      while (termArr.length > 0 && containsKanji(termArr[0])) {
+      while (termArr.length > 0 && containsKanjiOrNumber(termArr[0])) {
         termArr.shift();
       }
       // consume reading up till kanji is over
