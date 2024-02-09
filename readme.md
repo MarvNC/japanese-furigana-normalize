@@ -11,7 +11,8 @@ Let's say you have a term such as `喫茶ステラと死神の蝶` and its readi
 the reading is in hiragana. So if you were to put this into a Yomitan
 dictionary, you would want to normalize the reading to
 `かふぇステラとしにがみのちょう` so that there is no unnecessary furigana on top
-of the katakana characters.
+of the katakana characters. This package handles this as well as other cases to
+ensure the readings are properly handled by Yomitan.
 
 | ![chrome_喫茶ステラと死神の蝶_-_Yomitan_Search_-_Google_Chrome_2024-02-09_15-41-31](https://github.com/MarvNC/japanese-furigana-normalize/assets/17340496/5c15b89f-0fba-4130-9428-249de879c52e) | ![chrome_Yomitan_Search_-_喫茶ステラと死神の蝶_-_Yomitan_Search_2024-02-09_15-45-00](https://github.com/MarvNC/japanese-furigana-normalize/assets/17340496/d430c22b-23db-49de-b42a-73f454059536) |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
