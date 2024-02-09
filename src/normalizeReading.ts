@@ -1,6 +1,6 @@
-import { containsKanji } from './containsKanji';
-import { hiraganaToKatakana } from './hiraganaToKatakana';
-import { isKatakana } from './isKatakana';
+import { containsKanji } from './text-util/containsKanji';
+import { hiraganaToKatakana } from './text-util/hiraganaToKatakana';
+import { isKatakana } from './text-util/isKatakana';
 
 /**
  * Normalizes a reading to match for things with katakana in the string.
