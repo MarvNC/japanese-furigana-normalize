@@ -13,17 +13,9 @@ dictionary, you would want to normalize the reading to
 `かふぇステラとしにがみのちょう` so that there is no unnecessary furigana on top
 of the katakana characters.
 
-<details>
-
-  <summary>Images</summary>
-
-Before normalization:
-![chrome_喫茶ステラと死神の蝶_-_Yomitan_Search_-_Google_Chrome_2024-02-09_15-41-31](https://github.com/MarvNC/japanese-furigana-normalize/assets/17340496/5c15b89f-0fba-4130-9428-249de879c52e)
-
-After normalization:
-![chrome_Yomitan_Search_-_喫茶ステラと死神の蝶_-_Yomitan_Search_2024-02-09_15-45-00](https://github.com/MarvNC/japanese-furigana-normalize/assets/17340496/d430c22b-23db-49de-b42a-73f454059536)
-
-</details>
+| ![chrome_喫茶ステラと死神の蝶_-_Yomitan_Search_-_Google_Chrome_2024-02-09_15-41-31](https://github.com/MarvNC/japanese-furigana-normalize/assets/17340496/5c15b89f-0fba-4130-9428-249de879c52e) | ![chrome_Yomitan_Search_-_喫茶ステラと死神の蝶_-_Yomitan_Search_2024-02-09_15-45-00](https://github.com/MarvNC/japanese-furigana-normalize/assets/17340496/d430c22b-23db-49de-b42a-73f454059536) |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                    **Before normalization**                                                                                     |                                                                                     **After normalization**                                                                                      |
 
 ## Installation
 
