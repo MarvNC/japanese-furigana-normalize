@@ -1,0 +1,23 @@
+{
+  "name": "japanese-furigana-normalize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "japanese",
+    "furigana",
+    "katakana",
+    "parse"
+  ],
+  "author": "MarvNC",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  }
+}
