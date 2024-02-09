@@ -2,9 +2,11 @@
   "name": "japanese-furigana-normalize",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava",
+    "build": "tsc",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "japanese",
@@ -19,5 +21,8 @@
     "@typescript-eslint/parser": "^6.21.0",
     "eslint": "^8.56.0",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@gerhobbelt/xregexp": "^4.4.0-32"
   }
 }
