@@ -15,8 +15,8 @@ const testCases: testCase[] = [
     inputReading: 'あいこうだいめいでん',
     expectedReading: 'あいこうだいめいでん',
   },
+  // あいこん	icon	アルファベット	nico-pixiv
   {
-    // あいこん	icon	アルファベット	nico-pixiv
     term: 'icon',
     inputReading: 'あいこん',
     expectedReading: 'あいこん',
@@ -56,6 +56,30 @@ const testCases: testCase[] = [
     term: 'カマンベールチーズ',
     inputReading: 'かまんべーるちーず',
     expectedReading: 'カマンベールチーズ',
+  },
+  // かまらはりす	カマラ・ハリス	固有名詞	nico-pixiv
+  {
+    term: 'カマラ・ハリス',
+    inputReading: 'かまらはりす',
+    expectedReading: 'カマラ・ハリス',
+  },
+  // かんにんぐたけやま	カンニング竹山	固有名詞	nico-pixiv
+  {
+    term: 'カンニング竹山',
+    inputReading: 'かんにんぐたけやま',
+    expectedReading: 'カンニングたけやま',
+  },
+  // かんにんぐぺーぱー	カンニングペーパー	固有名詞	nico-pixiv
+  {
+    term: 'カンニングペーパー',
+    inputReading: 'かんにんぐぺーぱー',
+    expectedReading: 'カンニングペーパー',
+  },
+  // うぃるへるむふぉんりってんはいむさんせい	ウィルヘルム・フォン・リッテンハイム3世	固有名詞	nico-pixiv
+  {
+    term: 'ウィルヘルム・フォン・リッテンハイム3世',
+    inputReading: 'うぃるへるむふぉんりってんはいむさんせい',
+    expectedReading: 'ウィルヘルム・フォン・リッテンハイム3世',
   },
 ];
 
