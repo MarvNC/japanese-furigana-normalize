@@ -22,7 +22,7 @@ export function normalizeReading(term: string, reading: string) {
 
   while (katakanaArr.length > 0) {
     const termChar = termArr.shift();
-    if (!!termChar && containsKanji(termChar)) {
+    if (termChar && containsKanji(termChar)) {
       // consume kanjis in succession
       while (termArr.length > 0 && containsKanji(termArr[0])) {
         termArr.shift();
