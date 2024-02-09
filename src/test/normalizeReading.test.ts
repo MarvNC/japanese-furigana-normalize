@@ -43,7 +43,7 @@ const testCases: testCase[] = [
   {
     term: 'カフェ野ゾンビ子',
     inputReading: 'かふぇのぞんびこ',
-    expectedReading: 'カフェ野ゾンビ子',
+    expectedReading: 'カフェのゾンビこ',
   },
   // かふぇぱれーど	Cafe Parade	アルファベット	nico-pixiv
   {
