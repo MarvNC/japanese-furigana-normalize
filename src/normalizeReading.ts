@@ -54,5 +54,8 @@ export function normalizeReading(term: string, reading: string) {
     }
   }
 
+  // For exclamations and stuff at the end
+  outputReading.push(...termArr);
+
   return outputReading.join('');
 }

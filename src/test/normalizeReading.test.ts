@@ -81,6 +81,12 @@ const testCases: testCase[] = [
     inputReading: 'うぃるへるむふぉんりってんはいむさんせい',
     expectedReading: 'ウィルヘルム・フォン・リッテンハイムさんせい',
   },
+  // でぃーふらぐ	ディーふらぐ!	固有名詞	nico-pixiv
+  {
+    term: 'ディーふらぐ!',
+    inputReading: 'でぃーふらぐ',
+    expectedReading: 'ディーふらぐ!',
+  },
 ];
 
 for (const { term, inputReading, expectedReading } of testCases) {
