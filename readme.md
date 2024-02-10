@@ -1,5 +1,7 @@
 # Japanese Furigana Normalize
 
+[![npm](https://img.shields.io/npm/v/japanese-furigana-normalize?style=for-the-badge)](https://www.npmjs.com/package/japanese-furigana-normalize)
+
 This package provides a utility function to normalize Japanese readings
 containing furigana. It is particularly useful for creating Yomitan dictionaries
 and ensuring the readings are properly aligned with the kanji characters.
