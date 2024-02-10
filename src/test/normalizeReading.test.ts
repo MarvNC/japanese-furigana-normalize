@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import { normalizeReading } from '../normalizeReading';
+import { normalizeReading } from '../index';
 
 type testCase = {
   term: string;

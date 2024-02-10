@@ -27,6 +27,5 @@
   },
   "dependencies": {
     "@gerhobbelt/xregexp": "^4.4.0-32"
-  },
-  "type": "module"
+  }
 }
