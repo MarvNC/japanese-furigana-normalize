@@ -1,7 +1,7 @@
 {
   "name": "japanese-furigana-normalize",
   "version": "1.0.2",
-  "description": "",
+  "description": "Normalize Japanese readings to furigana",
   "main": "dist/index.js",
   "scripts": {
     "test": "ava",
@@ -27,5 +27,10 @@
   },
   "dependencies": {
     "@gerhobbelt/xregexp": "^4.4.0-32"
+  },
+  "homepage": "https://github.com/MarvNC/japanese-furigana-normalize",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarvNC/japanese-furigana-normalize.git"
   }
 }
