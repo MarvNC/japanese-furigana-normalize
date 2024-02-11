@@ -1,6 +1,6 @@
 {
   "name": "japanese-furigana-normalize",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Normalize Japanese readings to furigana",
   "main": "dist/index.js",
   "scripts": {
