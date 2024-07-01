@@ -1,8 +1,5 @@
 import isKanji from './isKanji';
-
-function isNumber(char: string) {
-  return /[0-9０-９]/.test(char);
-}
+import { isNumber } from './isNumber';
 
 /**
  * Detects if a string contains kanji or number.
