@@ -87,6 +87,12 @@ const testCases: testCase[] = [
     inputReading: 'でぃーふらぐ',
     expectedReading: 'ディーふらぐ!',
   },
+  // 崩壊：スターレイル ほうかいすたーれいる
+  {
+    term: '崩壊：スターレイル',
+    inputReading: 'ほうかいすたーれいる',
+    expectedReading: 'ほうかい：スターレイル',
+  },
 ];
 
 for (const { term, inputReading, expectedReading } of testCases) {
