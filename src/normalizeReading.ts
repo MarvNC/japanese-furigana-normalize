@@ -1,6 +1,6 @@
 import { hiraganaToKatakana } from './text-util/hiraganaToKatakana';
 import { isKatakana } from './text-util/isKatakana';
-import { containsKanjiOrNumber } from './text-util/containsKanji';
+import { shouldNotBeInFurigana } from './text-util/shouldNotBeInFurigana';
 import { isSpecial } from './text-util/isSpecial';
 
 /**
@@ -23,9 +23,9 @@ export function normalizeReading(term: string, reading: string) {
 
   while (katakanaArr.length > 0) {
     const termChar = termArr.shift();
-    if (termChar && containsKanjiOrNumber(termChar)) {
+    if (termChar && shouldNotBeInFurigana(termChar)) {
       // consume kanjis in succession
-      while (termArr.length > 0 && containsKanjiOrNumber(termArr[0])) {
+      while (termArr.length > 0 && shouldNotBeInFurigana(termArr[0])) {
         termArr.shift();
       }
       const specialsConsumed = [];

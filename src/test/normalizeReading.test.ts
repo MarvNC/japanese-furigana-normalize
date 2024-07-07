@@ -93,6 +93,12 @@ const testCases: testCase[] = [
     inputReading: 'ほうかいすたーれいる',
     expectedReading: 'ほうかい：スターレイル',
   },
+  // スーパーマリオUSA すーぱーまりおゆーえすえー
+  {
+    term: 'スーパーマリオUSA',
+    inputReading: 'すーぱーまりおゆーえすえー',
+    expectedReading: 'スーパーマリオゆーえすえー',
+  },
 ];
 
 for (const { term, inputReading, expectedReading } of testCases) {
