@@ -1,4 +1,4 @@
-import isKanji from './isKanji';
+import { isKanji } from './isKanji';
 import { isNumber } from './isNumber';
 import { isRomaji } from './isRomaji';
 
